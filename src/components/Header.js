@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function Header({ isDarkMode, onDarkModeClick }) {
   return (
@@ -8,7 +8,7 @@ function Header({ isDarkMode, onDarkModeClick }) {
         {isDarkMode ? "Dark" : "Light"} Mode
       </button>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
